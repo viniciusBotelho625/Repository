@@ -5,7 +5,7 @@ $main-color: rgba(255, 0, 0, 0.575);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     position: relative;
     text-align: center;
     padding: 0 2em;
@@ -19,47 +19,42 @@ $main-color: rgba(255, 0, 0, 0.575);
       color: #03dac6;
       transition: all 0.3s ease;
       z-index: 3;
-  }
+    }
 
     h1:hover {
       transform: translate3d(0, -10px, 22px);
       color: $main-color;
-  }
-}
-  
-
-  
-
-  
-  
-h3.span {
-    font-size: 2vw;
-    letter-spacing: 0.7em;
-    font-family: "ROBOTO", sans-serif;
-    font-weight: 300;
-    color: #faebd7;
-    z-index: 4;
-}
-  
-span:hover {
-    color: $main-color;
-    font-weight: 500;
-    font-size: 2.2vw;
-}
-  
-
-.loader span {
-    color: #faebd7;
-    text-shadow: 0 0 0 #faebd7;
-    -webkit-animation: loading 1s ease-in-out infinite alternate;
-}
-  
-  @-webkit-keyframes loading {
-    to {
-      text-shadow: 20px 0 70px $main-color;
-      color: $main-color;
     }
+
+    h3.span {
+      font-size: 2vw;
+      letter-spacing: 0.7em;
+      font-family: "ROBOTO", sans-serif;
+      font-weight: 300;
+      color: #faebd7;
+      z-index: 4;
+    }
+    
+    span:hover {
+        color: $main-color;
+        font-weight: 500;
+        font-size: 2.2vw;
+    }
+    
+    .loader span {
+        color: #faebd7;
+        text-shadow: 0 0 0 #faebd7;
+        -webkit-animation: loading 1s ease-in-out infinite alternate;
+    }
+}
+   
+  
+@-webkit-keyframes loading {
+  to {
+    text-shadow: 20px 0 70px $main-color;
+    color: $main-color;
   }
+}
 
 .loader span:nth-child(2) {
 -webkit-animation-delay: 0.1s;

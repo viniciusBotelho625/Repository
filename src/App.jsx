@@ -1,22 +1,23 @@
-import AnimationHome from "./components/AnimationHome";
 import "./app.scss";
-import Navbar from "./components/NavBar/NavBar";
+import AnimationHome from "./components/AnimationHome";
+import Navbar from "./components/NavBar";
+
 
 const App = () => {
   return(
     <div>
-      <section>
+      <section id="Homepage">
         <Navbar />
-      </section>
-      <section>
         <AnimationHome />
       </section>
+      <section id="Sobre">Paralex</section>
+      <section>Sobre</section>
+      <section id="Portifolio">Paralex</section>
+      <section>Portifolio 1</section>
+      <section>Portifolio 2</section>
+      <section>Portifolio 3</section>
       <section>Paralex</section>
-      <section>Hero</section>
-      <section>Services</section>
-      <section>Portifolio</section>
-      <section>Contact</section>
-      
+      <section id="Contato">Contato</section>
     </div>
   );
 };

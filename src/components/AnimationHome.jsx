@@ -1,10 +1,14 @@
-import React from "react";
-import './style.scss'
+import { motion } from "framer-motion";
+import '../styles/animationHome.scss';
+
 export default function AnimationHome() {
 
-
     return(
-        <section className="nav">
+        <motion.section className="nav"
+            initial={{opacity: 0, scale: 0.5}} 
+            animate={{opacity: 1, scale: 1}} 
+            transition={{duration: 0.8}}
+        >
             <h1>VINICIUS BOTELHO</h1>
             <h3 className="span loader">
                 <span className="m">D</span>
@@ -32,6 +36,6 @@ export default function AnimationHome() {
                 <span className="m">C</span>
                 <span className="m">K</span>
             </h3>
-        </section>
+        </motion.section>
     )
 }

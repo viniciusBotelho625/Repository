@@ -1,25 +1,25 @@
 import "./app.scss";
 import AnimationHome from "./components/AnimationHome";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navbar";
+import Parallax from "./components/Parallax";
+import Portifolio from "./components/Portifolio";
+import SideBar from "./components/SideBar";
 
 
 const App = () => {
-  return(
-    <div>
-      <section id="Homepage">
-        <Navbar />
-        <AnimationHome />
-      </section>
-      <section id="Sobre">Paralex</section>
-      <section>Sobre</section>
-      <section id="Portifolio">Paralex</section>
-      <section>Portifolio 1</section>
-      <section>Portifolio 2</section>
-      <section>Portifolio 3</section>
-      <section>Paralex</section>
-      <section id="Contato">Contato</section>
-    </div>
-  );
+  return <div>
+    <section id="Homepage">
+      <Navbar />
+      <AnimationHome />
+      <SideBar />
+    </section>
+    <section id="Perfil"><Parallax type="perfil"/></section>
+    <section>Sobre</section>
+    <section id="Portifolio"><Parallax type="portifolio"/></section>
+    <Portifolio />
+    <section id="Contato">Contact</section>
+  </div>
+  
 };
 
 export default App;

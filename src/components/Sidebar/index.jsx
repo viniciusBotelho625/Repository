@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import '../../styles/sidebar.scss';
+import './sidebar.scss';
 import ToggleButton from './ToggleButton';
 import Links from './Links';
 
@@ -14,7 +14,7 @@ const variants = {
         },
     },
     closed: {
-        clipPath: "circle(30px at 50px 50px)",
+        clipPath: "circle(25px at 50px 50px)",
         transition: {
             delay: 0.5,
             type: "spring",

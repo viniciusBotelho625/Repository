@@ -2,25 +2,25 @@
   {
     "id": 1,
     "title": "Be The Hero",
-    "img": "https://github.com/viniciusBotelho625/Be-The-Hero/blob/master/frontend/src/assets/Be-the-hero.png",
-    "desc": "Be The Hero is a project done during 'OmniStack 11.0 Week' that aims to connect people who want to make monetary contributions to NGOs that need help."
+    "img": "https://github.com/viniciusBotelho625/Be-The-Hero/blob/master/frontend/src/assets/Be-the-hero.png?raw=true",
+    "desc": "Be The Hero is a project done during 'OmniStack 11.0 Week' that have with object to connect people who want to make monetary contributions to NGOs that need help."
   },
   {
     "id": 2,
     "title": "Japa Food",
-    "img": "https://www.pexels.com/pt-br/foto/prato-de-sushi-343870/",
+    "img": "https://images.pexels.com/photos/343870/pexels-photo-343870.jpeg",
     "desc": "This project is a virtual menu de products of a Japanese restaurant. Where the user can choose the products and verify the price."
   },
   {
     "id": 3,
     "title": "Proffy",
-    "img": "https://github.com/viniciusBotelho625/Proffy/blob/master/.github/Home.png",
+    "img": "https://github.com/viniciusBotelho625/Proffy/raw/master/.github/Home.png",
     "desc": "Proffy is an online study platform, where students can connect with teachers of different subjects, in order to schedule classes."
   },
   {
     "id": 4,
     "title": "Pizzaria XDS",
-    "img": "https://github.com/viniciusBotelho625/Pizzaria-XDS/blob/main/img_README/Detail.png",
+    "img": "https://github.com/viniciusBotelho625/Pizzaria-XDS/blob/main/Detail.png?raw=true",
     "desc": "This project was a challenge in a selection process, the platform displayed a list of pizzas with their respective prices."
   }
 ]
